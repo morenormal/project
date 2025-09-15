@@ -89,18 +89,16 @@ ul li a:hover {
 }
 
 .bottom {
-  left: 0;
-  bottom: 0;
   width: 100%;
   background-color: #fff700;
   color: #36454F;
   text-align: center;
   padding: 18px 0 14px 0;
   font-family: 'Inter', sans-serif;
-  font-size: 1.1em;
+  font-size: 0.9em; /* smaller text */
   letter-spacing: 1px;
-  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.12);
-  border-top: 2px solid #e6c200;
+  box-shadow: 0 -2px 8px rgba(0,0,0,0.12);
+
 }
 
 .linething {
