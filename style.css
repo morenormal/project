@@ -23,34 +23,29 @@ ul li a:hover {
   background-color: #fff700;
 }
 
+/*
 .side-paragraph-left {
-
-  width: 85%;
-  margin-left: -200px;
-  font-family: 'roboto', sans-serif;
-
+  flex: 1; //
+  font-family: 'Roboto', sans-serif;
+ 
 }
 
-/*its actually right but im dumb */
-/* i dont think it mattered anyway */
+
 .side-paragraph-right {
-
-  width: 45%;
-  margin-right: -20px;
+  flex: 1; 
 }
 
-/* this is probably wrong but it works */
+
 .content-sections {
   display: flex;
+  justify-content: space-between; /
   gap: 40px;
   align-items: flex-start;
 }
+  */
+/*i dont need this anymore because i used table instead of flexbox but i might need it again idk i spent way too long trying to fix this*/
 
-.side-paragraph-left,
-.side-paragraph-right {
-  flex: 1;
-}
-
+/* box with border + background */
 .information-box {
   border: 2px solid #176faa;
   border-radius: 8px;
@@ -63,12 +58,9 @@ ul li a:hover {
   width: 700px;
   height: 250px;
   display: flex;
-
-
 }
 
 /* sir is this tuff  */
-
 
 .email {
   color: white;
@@ -80,12 +72,10 @@ ul li a:hover {
 }
 
 .boximage {
-
   margin-bottom: 30px;
   margin-left: 20px;
   width: auto;
   height: auto;
-
 }
 
 .bottom {
@@ -95,24 +85,59 @@ ul li a:hover {
   text-align: center;
   padding: 18px 0 14px 0;
   font-family: 'Inter', sans-serif;
-  font-size: 0.9em; /* smaller text */
+  font-size: 0.9em;
+  /* hope this is small enough */
   letter-spacing: 1px;
-  box-shadow: 0 -2px 8px rgba(0,0,0,0.12);
-
+  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.12);
 }
 
 .linething {
   color: #F6BE00;
   border-bottom: 2px solid #FFD700;
-  margin-top : 10px;
+  margin-top: 10px;
 }
+
 .footer-link {
-  color: #222;       
+  color: #222;
   text-decoration: none;
   font-weight: bold;
 }
 
 .footer-link:hover {
-  color: #555;         
+  color: #555;
   text-decoration: underline;
 }
+
+/* fonts */
+.inter {
+  font-family: 'Inter', sans-serif;
+}
+
+.roboto {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  font-family: roboto, sans-serif;
+}
+
+span.Yellow-colour {
+  color: #eeca00;
+}
+
+.infotable {
+  margin: 3rem 0;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.boxshadow {
+  border-radius: 10px;
+  box-shadow:
+    0 -3px 6px rgba(0, 0, 0, 0.1),
+    0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* i didnt have enough time to add any js so thats 2 marks gone */
