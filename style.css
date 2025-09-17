@@ -140,4 +140,12 @@ span.Yellow-colour {
     0 3px 6px rgba(0, 0, 0, 0.1);
 }
 
+.hero-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
 /* i didnt have enough time to add any js so thats 2 marks gone */
